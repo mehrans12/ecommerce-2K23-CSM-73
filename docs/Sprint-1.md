@@ -167,10 +167,3 @@ erDiagram
 **Why variants matter here:** Stock and price live on `PRODUCT_VARIANTS`, not `PRODUCTS`. This is the key modeling decision that separates an apparel schema from a flat electronics schema — a "Medium Blue Hoodie" and a "Large Black Hoodie" are different sellable units with independent stock counts, even though they share one parent product listing.
 
 ---
-
-## Submission Checklist
-
-- [ ] Commit this file as `docs/SPRINT_1.md` on the primary branch
-- [ ] Add instructor and TA as repository collaborators
-- [ ] Verify the Mermaid diagram renders correctly on GitHub
-- [ ] Submit the repository URL to the LMS before the deadline
